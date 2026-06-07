@@ -106,8 +106,8 @@ ExpenseTracker/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/nikhil1905-n/<repository-name>.git
-cd <repository-name>
+git clone https://github.com/nikhil1905-n/ExpenseTracker.git
+cd ExpenseTracker
 ```
 
 ---
