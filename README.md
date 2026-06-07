@@ -64,21 +64,32 @@ The application is built using the MERN stack (MongoDB, Express.js, React, and N
 
 ## 📁 Folder Structure
 
-```
-expense-tracker/
-├── client/                   # React frontend
+```text
+ExpenseTracker/
+├── client/                      # React frontend
 │   └── src/
-│       ├── pages/            # Login, Register, Dashboard, Expenses, Add/Edit
-│       ├── components/       # Navbar, ExpenseCard, ExpenseForm, StatCard...
-│       ├── context/          # AuthContext, ThemeContext
-│       ├── services/         # Axios API calls
-│       └── utils/            # helpers, constants
-└── server/                   # Node.js backend
-    ├── models/               # User, Expense mongoose schemas
-    ├── routes/               # auth, expenses, dashboard routes
-    ├── controllers/          # business logic
-    ├── middleware/           # JWT protect middleware
-    └── config/               # DB connection
+│       ├── pages/               # Login, Register, Dashboard, Expenses, Add/Edit
+│       ├── components/          # Navbar, ExpenseCard, ExpenseForm, StatCard...
+│       ├── context/             # AuthContext, ThemeContext
+│       ├── services/            # Axios API calls
+│       └── utils/               # Helpers and constants
+│
+├── screenshots/                 # Application screenshots for README
+│   ├── login.png
+│   ├── register.png
+│   ├── dashboard.png
+│   ├── expenses.png
+│   └── add-expense.png
+│
+├── server/                      # Node.js backend
+│   ├── models/                  # User and Expense schemas
+│   ├── routes/                  # Auth, Expense, Dashboard routes
+│   ├── controllers/             # Business logic
+│   ├── middleware/              # JWT authentication middleware
+│   └── config/                  # Database configuration
+│
+├── .gitignore
+└── README.md
 ```
 
 ---
